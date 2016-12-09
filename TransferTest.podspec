@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TransferTest'
+  s.homepage         = 'https://github.com/vilanovi/transfer-repo-test'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.author           = { 'Joan Martin' => 'vilanovi@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TransferTest.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/vilanovi/transfer-repo-test.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/joan_mh'
 
   s.ios.deployment_target = '8.0'
 

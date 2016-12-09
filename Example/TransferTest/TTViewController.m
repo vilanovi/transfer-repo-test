@@ -8,6 +8,8 @@
 
 #import "TTViewController.h"
 
+#import <TransferTest/TransferTest.h>
+
 @interface TTViewController ()
 
 @end
@@ -17,7 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Performing test
+    [[TransferTest new] test];
 }
 
 - (void)didReceiveMemoryWarning

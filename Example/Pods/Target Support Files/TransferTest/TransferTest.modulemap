@@ -1,0 +1,6 @@
+framework module TransferTest {
+  umbrella header "TransferTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

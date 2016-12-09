@@ -1,0 +1,16 @@
+PODS:
+  - TransferTest (0.1.0)
+
+DEPENDENCIES:
+  - TransferTest (from `../`)
+
+EXTERNAL SOURCES:
+  TransferTest:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TransferTest: 15e6e1cfc6a5a4402db22f0c207472b8ff792bec
+
+PODFILE CHECKSUM: fb92931b1a3d47520620e04ea77cc145e62a4ff7
+
+COCOAPODS: 1.1.1
