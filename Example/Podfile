@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TransferTest_Example' do
+  pod 'TransferTest', :path => '../'
+
+  target 'TransferTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
